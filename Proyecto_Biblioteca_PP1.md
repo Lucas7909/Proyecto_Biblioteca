@@ -70,19 +70,19 @@ Integrantes:
 
 # PROYECTO \- BIBLIOTECA
 
-# INTRODUCCIÓN {#introducción}
+# INTRODUCCIÓN 
 
-1. ## **Propósito** {#propósito}
+1. ## **Propósito** 
 
      
    El objetivo de este proyecto es desarrollar un sistema automatizado que gestione y organice el registro de préstamos y reservaciones de libros, así como de otros recursos disponibles en la institución. Este sistema tiene como finalidad facilitar el acceso a estos recursos para los usuarios y mantener un seguimiento ordenado y eficiente del contenido del establecimiento, contribuyendo a ampliar la variedad de libros y recursos digitales disponibles.
 
-2. ## **Contexto** {#contexto}
+2. ## **Contexto** 
 
      
    Actualmente, la biblioteca enfrenta dificultades en el seguimiento de los préstamos de libros y otros recursos debido a la gestión manual que se realiza. Esta metodología no solo requiere de la presencia del personal encargado, sino que también genera pérdida de registros, lo que repercute negativamente en la funcionalidad y eficiencia del servicio. Estas limitaciones impactan tanto a los usuarios como al personal, reduciendo la calidad del servicio ofrecido.
 
-3. ## **Alcance** {#alcance}
+3. ## **Alcance** 
 
 * Registro de préstamo, reserva y devolución de libros y otros recursos.  
 * Mantenimiento de una base de datos con los registros de usuarios y un listado actualizado de recursos prestados.  
@@ -93,48 +93,48 @@ Integrantes:
 * Compatibilidad del sistema con tecnología de códigos de barras y QR.
 
 
-4. ## **Referencias** {#referencias}
+4. ## **Referencias** 
 
 * Documentación creada para el uso del nuevo sistema.  
 * Realización de encuestas a alumnos y profesores sobre la facilidad de uso del registro actual y cómo mejoraría con el nuevo sistema.  
 * Entrevistas con el personal encargado de la biblioteca.  
 * Observación del entorno de trabajo para evaluar cómo podría el sistema mejorar la gestión actual.
 
-  # DESCRIPCIÓN GENERAL DEL PROYECTO {#descripción-general-del-proyecto}
+  # DESCRIPCIÓN GENERAL DEL PROYECTO 
 
 Este proyecto busca desarrollar un sistema integral de gestión para la biblioteca de la institución, enfocado en mejorar la eficiencia y la accesibilidad de los servicios ofrecidos. El sistema permitirá la automatización del registro de préstamos y reservas de libros y otros recursos, facilitando tanto la labor del personal bibliotecario como el acceso de los usuarios a estos recursos. Además, se integrará con el entorno digital del campus, permitiendo a alumnos, profesores y directivos realizar consultas y reservas en línea. La plataforma incluirá fuertes características de seguridad  y será compatible con diversas tecnologías, como códigos de barras y QR, para optimizar la gestión y seguimiento de los recursos.
 
-# REQUERIMIENTOS Y RESTRICCIONES {#requerimientos-y-restricciones}
+# REQUERIMIENTOS Y RESTRICCIONES 
 
-## **a.   	Requerimientos Funcionales** {#a.-requerimientos-funcionales}
+## **a.   	Requerimientos Funcionales** 
 
-1. ### **Registro de Usuarios:** {#registro-de-usuarios:}
+1. ### **Registro de Usuarios:** 
 
    * El sistema debe permitir registrar a los usuarios, habilitando la confirmación y cancelación de reservaciones y préstamos en tiempo real.  
    * Registro de un historial de préstamos y reservas para cada usuario.
 
-2. ### **Gestión de Recursos:** {#gestión-de-recursos:}
+2. ### **Gestión de Recursos:** 
 
    * El sistema debe mantener un inventario actualizado de todos los recursos disponibles en la biblioteca.  
    * Registro de nuevos libros en la base de datos (título, autor, género, ISBN, etc.).  
    * Funcionalidad de búsqueda y consulta de libros disponibles por título, autor o categoría.
 
-3. ### **Préstamo de Recursos:** {#préstamo-de-recursos:}
+3. ### **Préstamo de Recursos:** 
 
    * El sistema debe permitir registrar los préstamos, indicando el usuario, la fecha de préstamo y la fecha estimada de devolución.  
    * Implementación de un sistema de penalización por devoluciones tardías.  
    * Limitación en la cantidad de libros que una persona puede tomar prestados y en las renovaciones.
 
-4. ### **Reserva de Recursos:** {#reserva-de-recursos:}
+4. ### **Reserva de Recursos:** 
 
    * Los usuarios deben poder reservar recursos a través del sistema, con confirmación automática de disponibilidad.  
    * Envío de notificaciones por correo electrónico para mantener informados a los usuarios sobre el estado de sus préstamos y reservas.
 
-5. ### **Notificaciones:** {#notificaciones:}
+5. ### **Notificaciones:** 
 
    * El sistema debe enviar notificaciones a los usuarios sobre la disponibilidad de los recursos reservados y recordatorios para la devolución de los recursos prestados.
 
-   ## **b.  	Requerimientos no Funcionales** {#b.-requerimientos-no-funcionales}
+   ## **b.  	Requerimientos no Funcionales** 
 
 * El sistema debe garantizar la protección de los datos personales mediante medidas de seguridad como encriptación y control de acceso.  
 * Debe ser capaz de gestionar un alto volumen de usuarios y recursos sin colapsar.  
@@ -147,11 +147,11 @@ Este proyecto busca desarrollar un sistema integral de gestión para la bibliote
 * Las actualizaciones del sistema deben poder instalarse sin interrumpir su funcionamiento por más de 10 minutos.  
 * El sistema debe gestionar los permisos de acceso según la jerarquía de los usuarios que interactúan con la aplicación.
 
-  # CONCLUSIÓN {#conclusión}
+  # CONCLUSIÓN 
 
 La implementación de un sistema automatizado para la gestión de préstamos y reservas en la biblioteca es esencial para superar las limitaciones del sistema manual actual. La digitalización de este proceso permitirá un registro y seguimiento en tiempo real de los préstamos, mejorando la precisión del inventario y proporcionando una interfaz accesible para los usuarios. Además, este sistema optimizará los procesos internos, modernizando la gestión de recursos y mejorando la calidad del servicio. Se aplicarán altas medidas de seguridad para proteger los datos personales de los usuarios, creando un entorno de confianza. Al cumplir con los requerimientos funcionales y no funcionales, este proyecto garantizará una operación eficiente y un servicio de alta calidad.
 
-# GLOSARIO {#glosario}
+# GLOSARIO 
 
 | Términos | Sinónimos | Descripción |
 | :---- | :---- | :---- |
@@ -164,18 +164,18 @@ La implementación de un sistema automatizado para la gestión de préstamos y r
 | Usuario Invitado | Usuario externo, Visitante | Persona no afiliada a la institución que tiene acceso limitado a los recursos de la biblioteca según las políticas internas. |
 | Autoridades Institucionales | Directivos, Jefatura | Personal directivo de la institución que toma decisiones sobre el presupuesto, políticas y estrategias relacionadas con la biblioteca. |
 
-# DEFINICIONES, ACRÓNIMOS Y ABREVIATURAS {#definiciones,-acrónimos-y-abreviaturas}
+# DEFINICIONES, ACRÓNIMOS Y ABREVIATURAS 
 
 * Encriptación: Proceso de conversión de datos legibles en un formato codificado, accesible solo para quienes tienen la clave adecuada, protegiendo la información durante el almacenamiento y la transmisión.  
 * Sistema: Software encargado de gestionar de manera segura y eficiente grandes cantidades de información, permitiendo el almacenamiento y recuperación de datos en tiempo real.  
 * Usuarios: Personas que interactúan diariamente con el sistema.  
 * ISBN: Número único que identifica de manera específica a cada libro publicado, facilitando su catalogación en el ámbito editorial y bibliotecario.
 
-  # DIAGRAMA DE CONTEXTO {#diagrama-de-contexto}
+  # DIAGRAMA DE CONTEXTO 
 
   # ![Diagrama_Contexto](imagenes/Context%20Diagram%20Template.jpg)
 
-## **Aclaraciones del Diagrama de Contexto** {#aclaraciones-del-diagrama-de-contexto}
+## **Aclaraciones del Diagrama de Contexto** 
 
 Usuarios (engloban a los Alumnos y Profesores del establecimiento).
 
@@ -201,7 +201,7 @@ Usuarios (engloban a los Alumnos y Profesores del establecimiento).
 
 
 
-  # DIAGRAMA DE CASO DE USO {#diagrama-de-caso-de-uso}
+  # DIAGRAMA DE CASO DE USO 
 
   # ![Diagram_CasoDeUso](imagenes/Use%20Case%20Diagram.jpg)
 
@@ -210,7 +210,7 @@ Usuarios (engloban a los Alumnos y Profesores del establecimiento).
 
   
 
-  # PROTOTIPO {#prototipo}
+  # PROTOTIPO 
 
   ![Pro1](imagenes/pro1.jpg)
 
@@ -222,7 +222,7 @@ Usuarios (engloban a los Alumnos y Profesores del establecimiento).
   ![Pro4](imagenes/pro4.jpg)
 
 
-# ENTREVISTAS {#entrevistas}
+# ENTREVISTAS 
 
 De la entrevista realizada al personal de Biblioteca y Dirección, surgieron los siguientes datos que se utilizaron para definir los requerimientos y restricciones:
 
